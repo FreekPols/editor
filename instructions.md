@@ -64,6 +64,15 @@ To allow the online editor to access your repository, you need to create a perso
 
 You are now ready, go to your GH page and include /editor at the end of the URL
 
+## Login 
+You can login the editor by pasting /editor behind your url, in this case: https://freekpols.github.io/editor/editor/
+
+This leads to a login page:
+```{figure} figures/login.png
+```
+To enter, paste your _personal access token_. If all went well, you are logged in and you can edit your markdown files online.
+
+
 ## Note on updates
 
 The above method has a fixed editor - we are still working on updates, fix bugs etc. These will not be included in your version as it depends entirely on the .tar file in which the editor is included. Do visit [combine](https://combine.tudelft.nl) for updates on the editor/
