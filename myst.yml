@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 11359b04-c9af-4fbf-823d-4008c6bd1fb3
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/FreekPols/editor
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+  toc:
+    - file: index.md
+    - file: instructions.md
+
+  plugins:
+    - plugins/editor_local.mjs
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
