@@ -5,9 +5,9 @@ The following instructions show how the editor can be enabled. The steps below i
 ## Include Files
 
 1. In the root of your GitHub repository, create the folders `editor`, `editor-dist` and `plugins` (the latter only if it doesn't exist yet).
-2. Add the [editor_local.mjs](https://github.com/FreekPols/editor/raw/main/plugins/editor_local.mjs) file to the plugins folder.
+2. Add the [editor_local.mjs](https://github.com/FreekPols/editor/blob/main/plugins/editor_local.mjs) file to the plugins folder.
 3. Add the [myst-editor.tar.gz](https://github.com/FreekPols/editor/raw/main/editor-dist/myst-editor.tar.gz) file to the editor-dist folder.
-4. Add the [options.js](https://github.com/FreekPols/editor/raw/main/editor/options.js) file to the editor folder.
+4. Add the [options.js](https://github.com/FreekPols/editor/blob/main/editor/options.js) file to the editor folder.
 
 Your repository should now contain the following files and folders:
 ```markdown
@@ -46,11 +46,7 @@ To allow the online editor to access your repository, you need to create a perso
    ```{figure} figures/settings.png
    ```
 
-2. Scroll down and select **Developer settings** in the left sidebar.
-
-   ```{figure} figures/dev_settings.png
-   ```
-
+2. Scroll down and select **Developer settings**  in the left sidebar.
 3. Expand **Personal access tokens** and select **Fine-grained tokens**.
 4. Click **Generate new token**.
 5. Configure your token:
